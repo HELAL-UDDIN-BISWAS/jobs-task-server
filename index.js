@@ -9,7 +9,8 @@ app.use(express.json());
 app.use(cors({
   origin: [
     'http://localhost:5173',
-  'https://well-made-zephyr.surge.sh/'],
+  'https://fearful-behavior.surge.sh/',
+'https://job-task-neutron-limited.vercel.app/'],
   credentials: true,
 }))
 
